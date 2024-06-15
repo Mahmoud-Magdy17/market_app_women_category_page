@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_1/pages/women_category_page.dart';
 
 void main() {
-  runApp(MarketApp());
+  runApp(const MarketApp());
 }
 
 class MarketApp extends StatelessWidget {
@@ -13,7 +13,7 @@ class MarketApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: const Size(720, 1080),
-      builder: (context, child) => MaterialApp(
+      builder: (context, child) => const MaterialApp(
         // ignore: deprecated_member_use
         useInheritedMediaQuery: true,
         debugShowCheckedModeBanner: false,

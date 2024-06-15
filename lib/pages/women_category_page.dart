@@ -17,7 +17,7 @@ class WomenCategoryPage extends StatelessWidget {
             color: Color.fromARGB(255, 161, 161, 161),
             size: 32,
           ),
-          actionsIconTheme: IconThemeData(
+          actionsIconTheme: const IconThemeData(
             color: Color.fromARGB(255, 161, 161, 161),
             size: 32,
           ),
